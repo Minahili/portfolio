@@ -20,7 +20,7 @@ This portfolio is designed to present my abilities professionally and make it ea
 
 ## Live Demo
 
-[Click here to view the live portfolio](https://Minahili.github.io/portfolio/)
+[Click here to view the live portfolio](https://minahili.github.io/portfolio/)
 
 <img width="933" height="442" alt="image" src="https://github.com/user-attachments/assets/0900fa5e-4acc-470c-b2b7-eb6e1cd28c74" />
 
