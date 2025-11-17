@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minahil Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <div class="home-container">
+      <div class="image-container">
+        <img src="main.png" alt="Minahil">
+      </div>
+      <div class="intro">
+        <h1>Hey, I'm <span>Minahil</span></h1>
+        <p>Hi! I’m Minahil, a dedicated Full Stack Developer with hands-on experience in building modern, responsive, and scalable web applications. I specialize in developing clean UI, smooth functionality, and secure backend systems.</p>
+        <div class="social-links">
+          <a href="https://github.com/YourGitHubUsername" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/YourLinkedInUsername" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/YourTwitterUsername" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="btn">
+          <button id="downloadCV">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUTTONS TO OPEN MODULES -->
+  <div class="module-buttons">
+    <button class="module-btn" data-target="about">About Me</button>
+    <button class="module-btn" data-target="skills">Skills</button>
+    <button class="module-btn" data-target="contact">Contact</button>
+  </div>
+
+  <!-- MODULES -->
+  <div id="about" class="module">
+    <h2>About Me</h2>
+    <p>I am a computer science student skilled in web development, React, Node.js and more. I am passionate about learning and contributing to real projects.</p>
+    <ul> What I can do for you:
+        <li>Frontend development (React, HTML, CSS, JavaScript)</li>
+          <li>Backend development (Node.js, Express.js)</li>
+            <li>REST APIs creation & integration</li>
+              <li>Database management (MongoDB / SQL)</li>
+                <li>uthentication (JWT, role-based access, sessions)</li>
+                <li>Bug fixing & code optimization</li>
+                <li>Fully responsive website development</li>
+
+    </ul>
+  </div>
+
+  <div id="skills" class="module">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js / Node.js</li>
+      <li>SQL / Database</li>
+      <li>Git / GitHub</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="module">
+    <h2>Contact</h2>
+    <p>Email: minahil@example.com</p>
+    <p>Phone: +92 300 1234567</p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
