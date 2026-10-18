@@ -1,0 +1,18 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 56px;
+}
+
+.about__text {
+  font-size: 17px;
+  color: var(--text-dim);
+  max-width: 560px;
+}
+
+@media (max-width: 760px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,125 @@
+.hero {
+  padding-top: 180px;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.hero__title {
+  font-size: clamp(32px, 5vw, 50px);
+  line-height: 1.12;
+  margin-bottom: 24px;
+}
+
+.hero__sub {
+  max-width: 480px;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 14px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 22px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: #0a0e1a;
+}
+
+.btn--primary:hover {
+  transform: translateY(-1px);
+}
+
+.btn--ghost {
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+}
+
+.btn--ghost:hover {
+  border-color: var(--accent);
+}
+
+.hero__code {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+}
+
+.hero__code-bar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 12px 16px;
+  background: var(--bg-elev-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.hero__code-bar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+
+.hero__code-filename {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: none;
+  margin-left: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.hero__code-body {
+  margin: 0;
+  padding: 22px 20px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  line-height: 1.9;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.tok-key {
+  color: var(--accent);
+}
+.tok-var {
+  color: var(--accent-2);
+}
+.tok-prop {
+  color: #7fd0c4;
+}
+.tok-str {
+  color: #c8d1f0;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    padding-top: 140px;
+  }
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+}
